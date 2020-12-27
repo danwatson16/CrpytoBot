@@ -5,8 +5,7 @@ import krakenex
 from pykrakenapi import KrakenAPI
 import pandas_ta as ta
 
-api = krakenex.API(key = "27cgHwEM02L02J8PtEwMV4V/+Padjduq2Iu7p+yPaO+cq5oqWshakW+c", secret = "DnB7Ny8pZjySgr82Ug1bIWv/12NLBFObiagX3lLVCLT1/kqBo4XIHzf+a5lVPpAYBMHG2N2XNlKx3lgTLD4BqA==")
-k = KrakenAPI(api)
+
 sell = False
 buy = False
 total_profit = CryptoFunctions.overall_profit(k)

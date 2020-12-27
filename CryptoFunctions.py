@@ -10,11 +10,6 @@ import statistics
 import operator
 import time
 
-apiKey = "1e0aab54a5c0b8d29965c7a4f42e50c4"
-apiSecret = "XNcfaRxfoJMJ/8Hf88qG7enhR8af95b5AVSW5+twhOrX/NWMsMwdZCG6GGsr0hdmu8+Wc2lfq8LOIUfVxPU9Ig=="
-passphrase = "x6dnvvb2ge"
-
-auth_client = cbpro.AuthenticatedClient(apiKey,apiSecret,passphrase)
 
 
 

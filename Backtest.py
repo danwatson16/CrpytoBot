@@ -9,12 +9,6 @@ import cbpro
 import time
 import statistics
 
-api = krakenex.API(key = "27cgHwEM02L02J8PtEwMV4V/+Padjduq2Iu7p+yPaO+cq5oqWshakW+c", secret = "DnB7Ny8pZjySgr82Ug1bIWv/12NLBFObiagX3lLVCLT1/kqBo4XIHzf+a5lVPpAYBMHG2N2XNlKx3lgTLD4BqA==")
-k = KrakenAPI(api)
-
-apiKey = "1e0aab54a5c0b8d29965c7a4f42e50c4"
-apiSecret = "XNcfaRxfoJMJ/8Hf88qG7enhR8af95b5AVSW5+twhOrX/NWMsMwdZCG6GGsr0hdmu8+Wc2lfq8LOIUfVxPU9Ig=="
-passphrase = "x6dnvvb2ge"
 
 auth_client = cbpro.AuthenticatedClient(apiKey,apiSecret,passphrase)
 funds = 10
